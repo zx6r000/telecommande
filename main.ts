@@ -1,5 +1,8 @@
 makerbit.onIrButton(IrButton.Any, IrButtonAction.Pressed, function () {
-    basic.showIcon(IconNames.Heart)
+    basic.showString("Hello!")
+})
+makerbit.onIrDatagram(function () {
+    basic.showString(makerbit.irDatagram())
 })
 makerbit.connectIrReceiver(DigitalPin.P0, IrProtocol.NEC)
 basic.forever(function () {
