@@ -5,7 +5,9 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14"
+        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14",
+        "MakerBit-IR-Transmitter": "github:1010technologies/pxt-makerbit-ir-transmitter#v1.0.0",
+        "powerfunctions": "github:philipphenkel/pxt-powerfunctions#v1.5.1"
     },
     "files": [
         "main.blocks",
